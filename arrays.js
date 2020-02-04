@@ -11,13 +11,13 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray() {
-  array.unshift(element)
+  return array.unshift(element)
 }
 
 function addElementToEndOfArray() {
-  [...array, element]
+  return [...array, element]
 }
 
 function destructivelyAddElementToEndOfArray() {
-  array.pop(element)
+  return array.pop(element)
 }
