@@ -6,7 +6,8 @@ addElementToEndOfArray();
 destructivelyAddElementToEndOfArray();
 
 function addElementToBeginningOfArray(array, element) {
-  const array = [element, ...array]
+  [element, ...array]
+  return array
 }
 
 function destructivelyAddElementToBeginningOfArray() {
